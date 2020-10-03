@@ -16,7 +16,7 @@ exports.template = {
   "pools": [
     {
       "name": "CAKE", // Pool name if any, eg. Sushi Party, Uniswap Sushi-ETH LP
-      "trading_pairs": "CAKE",
+      "pair": "CAKE",
       "pairLink": "https://pancakeswap.finance/staking",
       "logo": "https://pancakeswap.finance/lp-images/category-cake.png",
       "poolRewards": ["CAKE"], // The reward token ticker
@@ -26,7 +26,7 @@ exports.template = {
     },
     {
       "name": "PancakeSWAP CAKE-BNB", // Pool name if any, eg. Sushi Party, Uniswap Sushi-ETH LP
-      "trading_pairs": "CAKE-WBNB",
+      "pair": "CAKE-WBNB",
       "pairLink": "https://pancakeswap.finance/farms/CAKE-BNB%20FLIP",
       "logo": "https://pancakeswap.finance/lp-images/category-cake.png",
       "poolRewards": ["CAKE"], // The reward token ticker
@@ -36,7 +36,7 @@ exports.template = {
     },
     {
       "name": "PancakeSWAP BUSD-BNB", // Pool name if any, eg. Sushi Party, Uniswap Sushi-ETH LP
-      "trading_pairs": "BUSD-WBNB",
+      "pair": "BUSD-WBNB",
       "pairLink": "https://pancakeswap.finance/farms/BUSD-BNB%20FLIP",
       "logo": "https://pancakeswap.finance/lp-images/category-busd.png",
       "poolRewards": ["CAKE"], // The reward token ticker
@@ -46,7 +46,7 @@ exports.template = {
     },
     {
       "name": "PancakeSWAP ADA-BNB", // Pool name if any, eg. Sushi Party, Uniswap Sushi-ETH LP
-      "trading_pairs": "ADA-WBNB",
+      "pair": "ADA-WBNB",
       "pairLink": "https://pancakeswap.finance/farms/ADA-BNB%20FLIP",
       "logo": "https://pancakeswap.finance/lp-images/category-ada.png",
       "poolRewards": ["CAKE"], // The reward token ticker
@@ -56,7 +56,7 @@ exports.template = {
     },
     {
       "name": "PancakeSWAP BAND-BNB", // Pool name if any, eg. Sushi Party, Uniswap Sushi-ETH LP
-      "trading_pairs": "BAND-WBNB",
+      "pair": "BAND-WBNB",
       "pairLink": "https://pancakeswap.finance/farms/BAND-BNB%20FLIP",
       "logo": "https://pancakeswap.finance/lp-images/category-band.png",
       "poolRewards": ["CAKE"], // The reward token ticker
@@ -66,7 +66,7 @@ exports.template = {
     },
     {
       "name": "PancakeSWAP DOT-BNB", // Pool name if any, eg. Sushi Party, Uniswap Sushi-ETH LP
-      "trading_pairs": "DOT-WBNB",
+      "pair": "DOT-WBNB",
       "pairLink": "https://pancakeswap.finance/farms/DOT-BNB%20FLIP",
       "logo": "https://pancakeswap.finance/lp-images/category-dot.png",
       "poolRewards": ["CAKE"], // The reward token ticker
@@ -76,7 +76,7 @@ exports.template = {
     },
     {
       "name": "PancakeSWAP EOS-BNB", // Pool name if any, eg. Sushi Party, Uniswap Sushi-ETH LP
-      "trading_pairs": "EOS-WBNB",
+      "pair": "EOS-WBNB",
       "pairLink": "https://pancakeswap.finance/farms/EOS-BNB%20FLIP",
       "logo": "https://pancakeswap.finance/lp-images/category-eos.png",
       "poolRewards": ["CAKE"], // The reward token ticker
@@ -86,7 +86,7 @@ exports.template = {
     },
     {
       "name": "PancakeSWAP LINK-BNB", // Pool name if any, eg. Sushi Party, Uniswap Sushi-ETH LP
-      "trading_pairs": "LINK-WBNB",
+      "pair": "LINK-WBNB",
       "pairLink": "https://pancakeswap.finance/farms/LINK-BNB%20FLIP",
       "logo": "https://pancakeswap.finance/lp-images/category-link.png",
       "poolRewards": ["CAKE"], // The reward token ticker
@@ -96,7 +96,7 @@ exports.template = {
     },
     {
       "name": "Bakery BAKE-BNB", // Pool name if any, eg. Sushi Party, Uniswap Sushi-ETH LP
-      "trading_pairs": "BAKE-WBNB",
+      "pair": "BAKE-WBNB",
       "pairLink": "https://pancakeswap.finance/farms/BAKE-BNB%20Bakery%20LP",
       "logo": "https://pancakeswap.finance/lp-images/category-bake.png",
       "poolRewards": ["CAKE"], // The reward token ticker
@@ -105,9 +105,29 @@ exports.template = {
     },
     {
       "name": "PancakeSWAP BURGER-BNB", // Pool name if any, eg. Sushi Party, Uniswap Sushi-ETH LP
-      "trading_pairs": "BURGER-WBNB",
+      "pair": "BURGER-WBNB",
       "pairLink": "https://pancakeswap.finance/farms/BURGER-BNB%20FLIP",
       "logo": "https://pancakeswap.finance/lp-images/category-burger.png",
+      "poolRewards": ["CAKE"], // The reward token ticker
+      "apr": 5.1899, // APY, 1.1 means 110%
+      "totalStaked": 263782, // Total valued lock in USD
+      "points": 1
+    },
+    {
+      "name": "PancakeSWAP USDT-BUSD", // Pool name if any, eg. Sushi Party, Uniswap Sushi-ETH LP
+      "pair": "USDT-BUSD",
+      "pairLink": "https://pancakeswap.finance/farms/USDT-BUSD%20FLIPP",
+      "logo": "https://pancakeswap.finance/lp-images/category-usdt.png",
+      "poolRewards": ["CAKE"], // The reward token ticker
+      "apr": 5.1899, // APY, 1.1 means 110%
+      "totalStaked": 263782, // Total valued lock in USD
+      "points": 1
+    },
+    {
+      "name": "PancakeSWAP TWT-BNB", // Pool name if any, eg. Sushi Party, Uniswap Sushi-ETH LP
+      "pair": "TWT-WBNB",
+      "pairLink": "https://pancakeswap.finance/farms/TWT-BNB%20FLIP",
+      "logo": "https://pancakeswap.finance/lp-images/category-TWT.png",
       "poolRewards": ["CAKE"], // The reward token ticker
       "apr": 5.1899, // APY, 1.1 means 110%
       "totalStaked": 263782, // Total valued lock in USD
