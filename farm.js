@@ -51,6 +51,7 @@ const lpAddress = [
   "0xc15fa3E22c912A276550F3E5FE3b0Deb87B55aCd", // USDT
   "0x610e7a287c27dfFcaC0F0a94f547Cc1B770cF483", // TWT
   "0xa1faa113cbe53436df28ff0aee54275c13b40975", // ALPHA
+  "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63", // XVS
 
 ]
 
